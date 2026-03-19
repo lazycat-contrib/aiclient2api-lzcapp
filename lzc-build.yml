@@ -1,0 +1,12 @@
+# LazyCat Build Configuration
+# Generated for AIClient2API
+
+# Manifest file path
+manifest: ./lzc-manifest.yml
+
+# Output directory for LPK package
+pkgout: ./
+
+# Application icon (512x512 PNG required)
+# User needs to provide icon.png
+icon: ./icon.png
