@@ -1,0 +1,17 @@
+package: community.lazycat.app.aiclient2api
+version: 2.11.52
+name: AIClient2API
+description: "AIClient2API - AI Client to API Gateway"
+min_os_version: 1.5.0
+license: MIT
+homepage: https://github.com/justlovemaki/AIClient-2-API
+author: justlikemaki
+
+locales:
+  en:
+    name: "AIClient2API"
+    description: "AI Client to API Gateway - Transform AI clients into API endpoints"
+  zh:
+    name: "AIClient2API"
+    description: "AI客户端转API网关 - 将AI客户端转换为API端点"
+
