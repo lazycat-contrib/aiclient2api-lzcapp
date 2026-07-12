@@ -2,7 +2,6 @@ application:
   subdomain: aiclient2api
   public_path:
     - /
-
   upstreams:
     - location: /
       backend: http://aiclient2api:3000/
@@ -39,10 +38,10 @@ application:
       port: 19880
       service: aiclient2api
       description: "Kiro OAuth callback (instance 5)"
-
 services:
   aiclient2api:
     # justlikemaki/aiclient-2-api:2.11.5.2
-    image: registry.lazycat.cloud/czyt/justlikemaki/aiclient-2-api:3b8dfecfbde2053f
+    # upstream: justlikemaki/aiclient-2-api:3.3.6
+    image: registry.lazycat.cloud/czyt/justlikemaki/aiclient-2-api:889b59bfc85e3b29
     binds:
       - /lzcapp/var/configs:/app/configs
