@@ -41,7 +41,7 @@ application:
 services:
   aiclient2api:
     # justlikemaki/aiclient-2-api:2.11.5.2
-    # upstream: justlikemaki/aiclient-2-api:3.3.6
-    image: registry.lazycat.cloud/czyt/justlikemaki/aiclient-2-api:889b59bfc85e3b29
+    # upstream: justlikemaki/aiclient-2-api:3.3.7
+    image: registry.lazycat.cloud/czyt/justlikemaki/aiclient-2-api:d0aeed39366de416
     binds:
       - /lzcapp/var/configs:/app/configs
