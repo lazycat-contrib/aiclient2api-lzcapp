@@ -1,5 +1,5 @@
 package: community.lazycat.app.aiclient2api
-version: 3.4.6
+version: 3.4.7
 name: AIClient2API
 description: "AIClient2API - AI Client to API Gateway"
 min_os_version: 1.5.0
